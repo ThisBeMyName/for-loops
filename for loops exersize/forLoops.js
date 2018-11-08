@@ -33,3 +33,21 @@ for(i = 5; i <= 50; i++){
 		console.log(i)
 	}
 }
+
+// function to replace kebab case text with snake case text
+
+function kebabToSnake(str) {
+	var newStr = str.replace(/-/g , "_");
+	return newStr;
+}
+
+// Higher order function (a function that takes a function)
+// Interval
+
+function sing(){
+	console.log("Twinkle twinkle...");
+	console.log("How I wonder...");
+}
+
+// paste this into the console to run the interval -- setInterval(sing, 1000);
+// paste this into the console to end it -- clearInterval(number given by setInterval);
